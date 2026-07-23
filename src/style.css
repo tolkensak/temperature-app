@@ -1,0 +1,105 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+div,
+span {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-position: inside;
+    margin-left: 0.6rem;
+}
+
+select {
+    padding: 2px 6px;
+}
+
+.app-content {
+    background-color: white;
+    color: black;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.dark-mode.app-content {
+    background-color: #333;
+    color: white;
+}
+
+.app-nav {
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    padding: 12px 0;
+}
+
+.dark-mode .app-nav {
+    border-bottom-color: #555;
+}
+
+.space-left {
+    margin-left: 0.5rem;
+}
+
+.space-top {
+    margin-top: 0.5rem;
+}
+
+.space-top-1 {
+    margin-top: 1rem;
+}
+
+.space-top-2 {
+    margin-top: 2rem;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.dark-mode .link {
+    color: white;
+}
+
+.link-a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.gray-text {
+    color: #666;
+}
+
+.dark-mode .gray-text {
+    color: #aaa;
+}
+
+.wrap-box {
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    padding: 20px 20px 30px 20px;
+}
+
+.dark-mode .wrap-box {
+    border-color: #555;
+}
+
+.error {
+    color: red;
+}

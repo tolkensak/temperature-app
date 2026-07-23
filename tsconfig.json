@@ -1,0 +1,14 @@
+{
+    "include": [
+        "./src/**/*"
+    ],
+    "compilerOptions": {
+        "strict": true,
+        "esModuleInterop": true,
+        "jsx": "react-jsx",
+        "types": ["@testing-library/jest-dom/vitest"],
+        "target": "ES2017",
+        "lib": ["ES2017", "DOM"],
+        "module": "es2020"
+    }
+}
