@@ -84,8 +84,8 @@ temperature-app/
 │   ├── components/
 │   │   └── BoilingVerdict.tsx    # Reusable temperature display component
 │   ├── hooks/
-│   │   ├── useAppStoreHooks.tsx  # Zustand store selectors
-│   │   └── useWeatherQuery.tsx   # React Query integration
+│   │   ├── useAppStoreHooks.ts   # Zustand store selectors
+│   │   └── useWeatherQuery.ts    # React Query integration
 │   ├── pages/
 │   │   ├── HomePage.tsx          # Main temperature page
 │   │   ├── WeatherPage.tsx       # Weather display page
@@ -95,7 +95,7 @@ temperature-app/
 │   ├── store/
 │   │   └── useAppStore.ts        # Zustand store configuration
 │   ├── test/
-│   │   └── setup.tsx             # Test configuration
+│   │   └── setup.ts              # Test configuration
 │   ├── App.tsx                   # Main app component with routing
 │   ├── main.tsx                  # Entry point with providers
 │   └── style.css                 # Global styles
