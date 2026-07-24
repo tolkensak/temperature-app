@@ -1,4 +1,4 @@
-// hooks/useWeatherQuery.tsx
+// hooks/useWeatherQuery.ts
 import { useQuery } from '@tanstack/react-query';
 import useAppStore from '../store/useAppStore';
 

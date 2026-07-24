@@ -1,7 +1,7 @@
-// hooks/useWeatherApi.ts
+// useWeatherApi.ts
 import { useQuery } from '@tanstack/react-query';
-import { api } from '../api';
-import useAppStore from '../store/useAppStore';
+import { api } from './api';
+import useAppStore from './store/useAppStore';
 
 export interface WeatherData {
     city: string;
@@ -59,7 +59,7 @@ const buildWeatherUrl = (cityName: string): string => {
 export const weatherApi = {
     getWeather: async (city: string): Promise<WeatherData> => {
         // ✅ The API returns data in a specific format
-        const response = await api.get<any>(buildWeatherUrl(city));
+        const response = await api.get(buildWeatherUrl(city));
         
         // ✅ Transform the API response to our WeatherData format
         return {

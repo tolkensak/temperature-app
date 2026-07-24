@@ -1,6 +1,6 @@
 // pages/WeatherPage.tsx
 import { useCallback } from 'react';
-import { useWeatherApi, cities, weatherDescription } from '../hooks/useWeatherApi';
+import { useWeatherApi, cities, weatherDescription } from '../useWeatherApi';
 import useAppStore from '../store/useAppStore';
 
 export function WeatherPage() {

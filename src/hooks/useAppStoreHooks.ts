@@ -1,4 +1,4 @@
-// useAppStoreHooks.tsx
+// useAppStoreHooks.ts
 import useAppStore from '../store/useAppStore';
 
 export const useDarkMode = () => {
