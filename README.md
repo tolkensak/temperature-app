@@ -23,9 +23,12 @@ A modern, feature-rich React application for checking weather conditions and con
 ## 🎯 Demo
 
 
-![WeatherPage Screenshot](/screenshots/WeatherPageLM.png)
-![HomePage Screenshot](/screenshots/HomePageDM.png)
-![SettingsPage Screenshot](/screenshots/SettingsPageDM.png)
+![WeatherPage Screenshot](screenshots/WeatherPageLM.png)
+
+![HomePage Screenshot](screenshots/HomePageDM.png)
+
+![SettingsPage Screenshot](screenshots/SettingsPageDM.png)
+
 *Screenshot of the Temperature App showing weather information, temperature conversion, and dark mode.*
 
 ## ✨ Features
