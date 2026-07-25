@@ -243,17 +243,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Project Link: [https://github.com/tolkensak/temperature-app](https://github.com/tolkensak/temperature-app)
 
----
 
-## 🎓 What This README Includes
-
-| Section | Purpose |
-|---------|---------|
-| **Badges** | Visual indicators of tech stack and license |
-| **Features** | Clear list of what the app does |
-| **Tech Stack** | Technologies used with explanations |
-| **Project Structure** | Organized file tree for navigation |
-| **Installation** | Step-by-step setup instructions |
-| **Usage** | Available scripts and feature walkthrough |
-| **Testing** | Test coverage and commands |
-| **Contributing** | Guidelines for open-source collaboration |
