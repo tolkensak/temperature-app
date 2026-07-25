@@ -1,12 +1,16 @@
 
 # 🌡️ Temperature App
 
-A modern, feature-rich React application for checking weather conditions and converting temperatures. Built with React, TypeScript, and Zustand.
+A modern React/TypeScript application for checking weather conditions and converting temperatures.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![React](https://img.shields.io/badge/React-18.2.0-61dafb)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0.0-3178c6)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-4.3.0-646cff)](https://vitejs.dev/)
+
+## ▶️ Live Demo
+
+[View Live Demo](https://temperature-app-sooty.vercel.app/)
 
 ## 📚 Table of Contents
 
@@ -21,7 +25,6 @@ A modern, feature-rich React application for checking weather conditions and con
 - [License](#license)
 
 ## 🎯 Demo
-
 
 ![WeatherPage Screenshot](screenshots/WeatherPage.png)
 
@@ -62,6 +65,7 @@ A modern, feature-rich React application for checking weather conditions and con
 | [Zustand 4](https://zustand-demo.pmnd.rs/) | Global state management |
 | [React Query 5](https://tanstack.com/query) | Server state management |
 | [React Router 6](https://reactrouter.com/) | Client-side routing |
+| Open-Meteo API | for free weather data |
 
 ### Testing
 | Technology | Purpose |
@@ -242,5 +246,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Tolkensak** – [GitHub](https://github.com/tolkensak)
 
 Project Link: [https://github.com/tolkensak/temperature-app](https://github.com/tolkensak/temperature-app)
-
-
